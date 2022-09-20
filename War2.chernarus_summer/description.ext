@@ -1,0 +1,883 @@
+class CfgWLRequisitionPresets
+{
+	class j0schiList
+	{
+		class WEST
+		{
+			class Infantry
+			{
+				//------------------------------------------ RHS:
+			
+				class rhsusf_army_ucp_medic
+				{
+					cost = 100;
+					requirements[] = {};
+				};		
+				class B_Soldier_GL_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_engineer_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_Soldier_TL_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_medic_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_Sharpshooter_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_soldier_AR_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_soldier_AA_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_HeavyGunner_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class B_soldier_LAT_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhsusf_usmc_marpat_wd_driver
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhsusf_usmc_marpat_wd_grenadier
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhsusf_usmc_marpat_wd_squadleader
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhsusf_usmc_marpat_wd_marksman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhsusf_usmc_marpat_wd_stinger
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhsusf_usmc_marpat_wd_javelin
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class B_crew_F
+				{
+					cost = 100;
+					requirements[] = {};
+				};	
+			};
+			class Vehicles
+			{
+				//---------------------------------------------- RHS:
+			
+				class B_APC_Wheeled_01_cannon_F
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class B_APC_Tracked_01_rcws_F
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class B_APC_Tracked_01_CRV_F
+				{
+					cost = 10000;
+					requirements[] = {};
+				};							
+				class B_MBT_01_arty_F
+				{
+					cost = 10000;
+					requirements[] = {};
+				};							
+				class B_APC_Tracked_01_AA_F
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class B_LSV_01_armed_F
+				{
+					cost = 500;
+					requirements[] = {};
+				};			
+				class rhsusf_m109_usarmy
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhsusf_M142_usarmy_WD
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class RHS_M2A2_wd
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class RHS_M2A3_BUSKIII_wd
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class RHS_M6_wd
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhsusf_stryker_m1126_m2_wd
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhsusf_m113_usarmy_MK19
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhsusf_M1230_MK19_usarmy_wd
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhsusf_m1240a1_m2crows_usarmy_wd
+				{
+					cost = 20000;
+					requirements[] = {};
+				};					
+				class rhsusf_m1a1aimwd_usarmy
+				{
+					cost = 20000;
+					requirements[] = {};
+				};						
+				class rhsusf_m1a2sep1tuskiiwd_usarmy
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhsusf_m1a2sep2wd_usarmy
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhsusf_M977A4_AMMO_usarmy_wd
+				{
+					cost = 1000;
+					requirements[] = {};
+				};				
+				class rhsusf_M977A4_REPAIR_usarmy_wd
+				{
+					cost = 1000;
+					requirements[] = {};
+				};				
+				class rhsusf_M978A4_BKIT_usarmy_wd
+				{
+					cost = 1000;
+					requirements[] = {};
+				};				
+				class rhsusf_m1025_w_m2
+				{
+					cost = 1000;
+					requirements[] = {};
+				};				
+				class rhsusf_m1151_m2crows_usarmy_wd
+				{
+					cost = 1000;
+					requirements[] = {};
+				};				
+				class rhsusf_m1151_m2_v2_usarmy_wd
+				{
+					cost = 1000;
+					requirements[] = {};
+				};
+				class B_MBT_01_TUSK_F
+				{
+					cost = 30000;
+					requirements[] = {};
+				};		
+			};
+			class Aircraft
+			{
+				//---------------------------------------------------- RHS:
+				
+				class B_Heli_Light_01_dynamicLoadout_F
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class B_Heli_Transport_03_F
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class B_Heli_Attack_01_dynamicLoadout_F
+				{
+					cost = 70000;
+					requirements[] = {};
+				};				
+				class B_Heli_Transport_01_F
+				{
+					cost = 70000;
+					requirements[] = {};
+				};				
+				class B_Plane_CAS_01_dynamicLoadout_F
+				{
+					cost = 70000;
+					requirements[] = {};
+				};				
+				class B_Plane_Fighter_01_F
+				{
+					cost = 70000;
+					requirements[] = {};
+				};						
+				class RHS_AH64D_wd
+				{
+					cost = 70000;
+					requirements[] = {};
+				};			
+				class RHS_UH60M
+				{
+					cost = 20000;
+					requirements[] = {};
+				};
+			};
+			class Naval
+			{
+				//----------------------------------------------- RHS:
+			
+				class B_Boat_Armed_01_minigun_F
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};
+			};
+			class Gear
+			{
+				//------------------------------------------------ RHS:
+			
+				class rhsusf_weapon_crate					
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhsusf_spec_weapons_crate					
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhsusf_launcher_crate				
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhsusf_gear_crate			
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class rhsusf_mags_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_weapon_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_spec_weapons_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_launcher_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_gear_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_mags_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class ACE_medicalSupplyCrate_advanced
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class ACE_medicalSupplyCrate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class Box_NATO_Ammo_F
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class Box_NATO_WpsSpecial_F
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+			};
+			class Defences
+			{
+				//------------------------------------------------ RHS:
+			
+				class B_Mortar_01_F
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};				
+				class B_static_AA_F
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};				
+				class B_AAA_System_01_F
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};				
+				class B_GMG_01_A_F
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};				
+				class B_HMG_01_A_F
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};
+			};
+		};
+		
+		class EAST
+		{
+			class Infantry
+			{
+				//------------------------------------------------------- RHS: 
+				
+				class rhs_vdv_driver_armored
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_grenadier_rpg
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_engineer
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_machinegunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_arifleman_rpk
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_medic
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_marksman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_marksman_asval
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_aa
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_grenadier
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_rifleman_alt
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_armoredcrew
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_at
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class rhs_vdv_recon_arifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+			};
+			class Vehicles
+			{
+				//--------------------------------------------------------------------- RHS:
+			
+				class rhs_bmp1p_vdv								
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhs_bmp2k_vdv							
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhs_brm1k_vdv						
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhs_btr60_vdv					
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhs_btr70_vdv				
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhs_btr80a_vdv				
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhs_btr80_vdv				
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhsgref_BRDM2_vdv			
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhsgref_BRDM2_HQ_vdv			
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class rhs_gaz66_vdv			
+				{
+					cost = 4000;
+					requirements[] = {};
+				};				
+				class rhs_gaz66_zu23_vdv			
+				{
+					cost = 4500;
+					requirements[] = {};
+				};					
+				class O_G_Offroad_01_armed_F		
+				{
+					cost = 500;
+					requirements[] = {};
+				};					
+				class O_G_Offroad_01_AT_F		
+				{
+					cost = 500;
+					requirements[] = {};
+				};					
+				class rhssaf_army_o_m1151_olive_pkm	
+				{
+					cost = 500;
+					requirements[] = {};
+				};				
+				class rhs_gaz66_ammo_vdv			
+				{
+					cost = 500;
+					requirements[] = {};
+				};				
+				class rhs_typhoon_vdv			
+				{
+					cost = 500;
+					requirements[] = {};
+				};				
+				class RHS_Ural_Fuel_VDV_01			
+				{
+					cost = 500;
+					requirements[] = {};
+				};				
+				class RHS_Ural_Repair_VDV_01			
+				{
+					cost = 500;
+					requirements[] = {};
+				};				
+				class rhs_tigr_sts_vdv		
+				{
+					cost = 500;
+					requirements[] = {};
+				};				
+				class rhs_sprut_vdv	
+				{
+					cost = 30000;
+					requirements[] = {};
+				};				
+				class rhs_t72be_tv
+				{
+					cost = 30000;
+					requirements[] = {};
+				};				
+				class rhs_t80a
+				{
+					cost = 30000;
+					requirements[] = {};
+				};				
+				class rhs_t80u45m
+				{
+					cost = 30000;
+					requirements[] = {};
+				};				
+				class rhs_t14_tv
+				{
+					cost = 30000;
+					requirements[] = {};
+				};				
+				class rhs_t80uk
+				{
+					cost = 30000;
+					requirements[] = {};
+				};				
+				class rhs_t90sab_tv
+				{
+					cost = 30000;
+					requirements[] = {};
+				};					
+				class rhs_t15_tv
+				{
+					cost = 30000;
+					requirements[] = {};
+				};				
+				class rhs_zsu234_aa
+				{
+					cost = 15000;
+					requirements[] = {};
+				};				
+				class rhs_9k79
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhs_2s3_at_tv
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhs_2s1_at_tv
+				{
+					cost = 20000;
+					requirements[] = {};
+				};				
+				class rhs_2s3_tv
+				{
+					cost = 20000;
+					requirements[] = {};
+				};
+			};
+			class Aircraft
+			{
+				//------------------------------------------------------------- RHS:
+				
+				class RHS_Mi8AMT_vdv						
+				{
+					cost = 20000;
+					requirements[] = { "A" };
+				};							
+				class O_Heli_Transport_04_covered_F					
+				{
+					cost = 20000;
+					requirements[] = { "A" };
+				};				
+				class RHS_Mi8MTV3_vdv						
+				{
+					cost = 20000;
+					requirements[] = { "A" };
+				};				
+				class RHS_Mi8mtv3_Cargo_vdv						
+				{
+					cost = 20000;
+					requirements[] = { "A" };
+				};				
+				class RHS_Mi8T_vdv					
+				{
+					cost = 20000;
+					requirements[] = { "A" };
+				};				
+				class RHS_Mi24P_vdv				
+				{
+					cost = 70000;
+					requirements[] = { "A" };
+				};				
+				class rhs_mig29sm_vvs			
+				{
+					cost = 70000;
+					requirements[] = { "A" };
+				};				
+				class RHS_Su25SM_vvs			
+				{
+					cost = 70000;
+					requirements[] = { "A" };
+				};				
+				class RHS_T50_vvs_blueonblue		
+				{
+					cost = 70000;
+					requirements[] = { "A" };
+				};
+				class RHS_Mi8MTV3_heavy_vdv				
+				{
+					cost = 50000;
+					requirements[] = { "A" };
+				};					
+				class O_Heli_Light_02_dynamicLoadout_F			
+				{
+					cost = 50000;
+					requirements[] = { "A" };
+				};						
+				class RHS_Ka52_vvs			
+				{
+					cost = 50000;
+					requirements[] = { "A" };
+				};					
+				class rhs_ka60_grey
+				{
+					cost = 50000;
+					requirements[] = { "A" };
+				};				
+				class rhs_mig29sm_vmf			
+				{
+					cost = 50000;
+					requirements[] = { "A" };
+				};				
+				class rhs_mig29s_vmf		
+				{
+					cost = 50000;
+					requirements[] = { "A" };
+				};
+			};
+			class Naval
+			{
+				// ------------------------------------------------------------- RHS:
+			
+				class rhs_bmk_t
+				{
+					cost = 500;
+					requirements[] = { "W" };
+				};				
+				class O_T_Boat_Armed_01_hmg_F
+				{
+					cost = 500;
+					requirements[] = { "W" };
+				};
+			};
+			class Gear
+			{
+				//-------------------------------------------------------------- RHS:
+			
+				class rhsusf_weapon_crate					
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhsusf_spec_weapons_crate					
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhsusf_launcher_crate				
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhsusf_gear_crate			
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class rhsusf_mags_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_weapon_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_spec_weapons_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_launcher_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_gear_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class rhs_mags_crate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class ACE_medicalSupplyCrate_advanced
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class ACE_medicalSupplyCrate
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class Box_NATO_Ammo_F
+				{
+					cost = 20;
+					requirements[] = {};
+				};				
+				class Box_NATO_WpsSpecial_F
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+			};
+			class Defences
+			{
+				//----------------------------------------------------------- RHS:
+			
+				class rhs_D30_vdv
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+				class rhs_D30_at_vdv
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+				class rhs_2b14_82mm_vdv
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class rhs_KORD_VDV
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class rhs_KORD_high_VDV
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class rhs_Igla_AA_pod_vdv
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class rhs_Metis_9k115_2_vdv
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class rhs_SPG9M_VDV
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class rhs_Kornet_9M133_2_vdv
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class RHS_AGS30_TriPod_VDV
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class RHS_NSV_TriPod_VDV
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class RHS_ZU23_VDV
+				{
+					cost = 250;
+					requirements[] = {};
+				};				
+				class B_AAA_System_01_F
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+			};
+		};
+	};
+};

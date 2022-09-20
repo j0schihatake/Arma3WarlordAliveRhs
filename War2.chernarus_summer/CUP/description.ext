@@ -1,0 +1,637 @@
+class CfgWLRequisitionPresets
+{
+	class j0schiList
+	{
+		class WEST
+		{
+			class Infantry
+			{
+				//------------------------------------------ CUP:
+			
+				class CUP_B_US_SpecOps_TL
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_SpecOps_Medic
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_SpecOps_UAV
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_SpecOps_MG
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class CUP_B_US_SpecOps_AR
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class CUP_B_US_SpecOps_JTAC
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_SpecOps
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_SpecOps_Assault
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_Soldier_GL_OCP
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_Soldier_Engineer_OCP
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_Medic_OCP
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_B_US_Sniper_M107_OCP
+				{
+					cost = 1000;
+					requirements[] = {};
+				};
+				class CUP_B_US_Sniper_M110_TWS_OCP
+				{
+					cost = 1000;
+					requirements[] = {};
+				};
+
+			};
+			class Vehicles
+			{
+				//---------------------------------------------- CUP:
+			
+				class CUP_B_nM1025_M2_USA_WDL
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_nM1025_M240_USA_WDL
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_nM1025_SOV_M2_USA_WDL
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_M1151_Deploy_WDL_USA
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_M1151_Mk19_USA
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_M1165_GMV_USA
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_MTVR_USA
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_MTVR_Ammo_USA
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_MTVR_Refuel_USA
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_MTVR_Repair_USA
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_B_RG31_Mk19_USA
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class CUP_B_nM1097_AVENGER_USA_WDL
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class CUP_B_M163_Vulcan_USA
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class CUP_B_M6LineBacker_USA_W
+				{
+					cost = 3000;
+					requirements[] = {};
+				};
+				class CUP_B_M1126_ICV_M2_Woodland
+				{
+					cost = 3000;
+					requirements[] = {};
+				};
+				class CUP_B_M1128_MGS_Woodland
+				{
+					cost = 10000;
+					requirements[] = {};
+				};
+				class CUP_B_M113A1_USA
+				{
+					cost = 3000;
+					requirements[] = {};
+				};
+				class CUP_B_M1030_USA
+				{
+					cost = 30;
+					requirements[] = {};
+				};
+			};
+			class Aircraft
+			{
+				//---------------------------------------------------- CUP:
+				
+				class CUP_B_A10_DYN_USA
+				{
+					cost = 75000;
+					requirements[] = {};
+				};
+				class CUP_B_AC47_Spooky_USA
+				{
+					cost = 75000;
+					requirements[] = {};
+				};
+				class CUP_B_CESSNA_T41_UNARMED_USA
+				{
+					cost = 75000;
+					requirements[] = {};
+				};
+				class CUP_B_AH64_DL_USA
+				{
+					cost = 50000;
+					requirements[] = {};
+				};
+				class CUP_B_AH6M_USA
+				{
+					cost = 20000;
+					requirements[] = {};
+				};
+				class CUP_B_MH47E_USA
+				{
+					cost = 25000;
+					requirements[] = {};
+				};
+				class CUP_B_MH60L_DAP_4x_US
+				{
+					cost = 50000;
+					requirements[] = {};
+				};
+				class CUP_B_UH60M_Unarmed_FFV_MEV_US
+				{
+					cost = 50000;
+					requirements[] = {};
+				};
+			};
+			class Naval
+			{
+				//----------------------------------------------- CUP:
+			
+				class CUP_B_LCU1600_USMC
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};
+				class CUP_B_RHIB_USMC
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};
+				class CUP_B_Zodiac_USMC
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};
+			};
+			class Gear
+			{
+				//------------------------------------------------ CUP:
+			
+				class Box_NATO_Ammo_F
+				{
+					cost = 200;
+					requirements[] = {};
+				};
+			};
+			class Defences
+			{
+				//------------------------------------------------ CUP:
+			
+				class CUP_B_M252_US
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};
+				class CUP_B_CUP_Stinger_AA_pod_US
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};
+				class CUP_B_M119_US
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};
+				class CUP_B_M134_A_US_ARMY
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};
+				class CUP_B_TOW_TriPod_US
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};
+				class CUP_B_MK19_TriPod_US
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 };
+				};
+			};
+		};
+		
+		class EAST
+		{
+			class Infantry
+			{
+				//------------------------------------------------------- CUP: 
+				
+				class CUP_O_sla_Soldier_GL			// Гренадер
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_sla_Medic_urban			// Медик
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				// Современный:
+				class CUP_O_RU_Soldier_GL_M_VDV_EMR_V2					// Гренадер
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_Engineer_M_VDV_EMR_V2			// Инженер
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_TL_M_VDV_EMR_V2					// Командир звена
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_SL_M_VDV_EMR_V2					// Командир отделения
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Spotter_VDV_M_EMR						// Корректировщик
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_Medic_M_VDV_EMR_V2				// Медик
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_Marksman_M_VDV_EMR_V2			// Меткий стрелок
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_Repair_M_VDV_EMR_V2				// Механик
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Officer_M_VDV_EMR_V2						// Офицер
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Pilot_VDV_M_EMR							// Пилот
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_A_M_VDV_EMR_V2					// Подносчик припасов
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_AAR_M_VDV_EMR_V2					// Помошник пулеметчика
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_AAT_M_VDV_EMR_V2					// Помошник ракетчика
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_AR_M_VDV_EMR_V2					// Пулеметчик
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_AA_M_VDV_EMR_V2					// Ракетчик ПВО
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_LAT_M_VDV_EMR_V2					// Ракетчик ПТ
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_Exp_M_VDV_EMR_V2					// Сапер
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Sniper_VDV_M_EMR							// Снайпер
+				{
+					cost = 500;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_M_VDV_EMR_V2						// Стрелок
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_AT_M_VDV_EMR_V2					// Стрелок ПТ
+				{
+					cost = 700;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_HAT_M_VDV_EMR_V2					// Стрелок ПТ тяжолый
+				{
+					cost = 800;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Soldier_MG_M_VDV_EMR_V2					// Пулеметчик тяжелый
+				{
+					cost = 550;
+					requirements[] = {};
+				};
+				class CUP_O_RU_Sniper_KSVK_VDV_M_EMR					// Снайпер 2
+				{
+					cost = 550;
+					requirements[] = {};
+				};
+			};
+			class Vehicles
+			{
+				//--------------------------------------------------------------------- CUP:
+			
+				class CUP_O_UAZ_Unarmed_RU								// Уаз
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_UAZ_AGS30_RU								// Уаз с пулеметом
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_UAZ_MG_RU								// Уаз с пулеметом ДШКМ
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_UAZ_Open_RU								// Уаз с пулеметом открытый
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_Kamaz_RU								// Камаз
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_TT650_TKA								// Байк
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_Kamaz_Reammo_RU							// Камаз аммо
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_Kamaz_Refuel_RU							// Камаз топливо
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_Kamaz_Repair_RU							// Камаз ремонт
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_Ural_RU									// Урал
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_2S6_RU									// Тунгуска
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_2S6M_RU									// Тунгуска - М
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_Ural_ZU23_RU							// Урал с зениткой
+				{
+					cost = 50;
+					requirements[] = {};
+				};
+				class CUP_O_T72_RU									// Т-72
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+				class CUP_O_T90_RU									// Т-90А
+				{
+					cost = 5000;
+					requirements[] = {};
+				};
+			};
+			class Aircraft
+			{
+				//------------------------------------------------------------- CUP:
+				
+				class CUP_O_Su25_Dyn_RU							//Су 34
+				{
+					cost = 75000;
+					requirements[] = { "A" };
+				};
+				class CUP_O_SU34_RU								//Су 34
+				{
+					cost = 75000;
+					requirements[] = { "A" };
+				};
+			};
+			class Naval
+			{
+				// ------------------------------------------------------------- CUP:
+			
+				class CUP_O_ZUBR_RU
+				{
+					cost = 500;
+					requirements[] = { "W" };
+				};
+				class CUP_O_PBX_RU
+				{
+					cost = 500;
+					requirements[] = { "W" };
+				};
+			};
+			class Gear
+			{
+				//-------------------------------------------------------------- CUP:
+			
+				class CUP_BOX_RU_AmmoVeh_F						// боеприпасы для техники
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_AmmoOrd_F						// взрывчатка
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_Wps_F							// взрывчатка
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_WpsLaunch_F					// пусковые установки
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_WpsSpecial_F					// специальное оружие
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class ACE_medicalSupplyCrate					// медикаменты
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_Ammo_F							// бокс аммо
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_VABox_RU								// виртуальный арсенал
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_Grenades_F						// гранаты
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_Support_F						// support
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+				class CUP_BOX_RU_Uniforms_F						// униформа
+				{
+					cost = 20;
+					requirements[] = {};
+				};
+			};
+			class Defences
+			{
+				//----------------------------------------------------------- CUP:
+			
+				class CUP_O_AGS_RU_M_MSV
+				{
+					cost = 250;
+					requirements[] = {};
+					offset[] = { 0, 5.3, 0 }; // --- custom offset (optional)
+				};
+				class CUP_O_D30_RU_M_BeigeDigital
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+				class CUP_O_D30_AT_RU
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+				class CUP_O_KORD_high_RU_M_MSV
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+				class CUP_O_KORD_RU
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+				class CUP_O_2b14_82mm_RU_M_MSV
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+				class CUP_O_Igla_AA_pod_RU_M_MSV
+				{
+					cost = 250;
+					requirements[] = {};
+				};
+			};
+		};
+	};
+};
