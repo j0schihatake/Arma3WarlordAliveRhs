@@ -8,264 +8,484 @@ class CfgWLRequisitionPresets
 			{
 				//------------------------------------------ RHS:
 			
-				class rhsusf_army_ucp_medic
+				class LIB_SOV_smgunner
 				{
 					cost = 100;
 					requirements[] = {};
 				};		
-				class B_Soldier_GL_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_engineer_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_Soldier_TL_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_medic_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_Sharpshooter_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_soldier_AR_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_soldier_AA_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_HeavyGunner_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class B_soldier_LAT_F
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class rhsusf_usmc_marpat_wd_driver
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class rhsusf_usmc_marpat_wd_grenadier
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class rhsusf_usmc_marpat_wd_squadleader
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class rhsusf_usmc_marpat_wd_marksman
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class rhsusf_usmc_marpat_wd_stinger
-				{
-					cost = 100;
-					requirements[] = {};
-				};				
-				class rhsusf_usmc_marpat_wd_javelin
+				class LIB_SOV_smgunner_summer
 				{
 					cost = 100;
 					requirements[] = {};
 				};
-				class B_crew_F
+				class LIB_SOV_gun_lieutenant
 				{
 					cost = 100;
 					requirements[] = {};
-				};	
+				};
+				class LIB_SOV_gun_crew
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_grenadier
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_captain
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_captain_summer
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_pilot
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_AT_grenadier
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_AT_M1A1_soldier
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_LAT_Soldier
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_AT_soldier
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_mgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_smgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_rifleman_autumn
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_sergeant
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_p_officer
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_mgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_sniper_spring
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_sniper
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_scout_sniper_autumn
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_medic
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_sapper
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_operator
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_first_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_LC_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_LC_rifleman_summer
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_unequip
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_staff_sergeant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_sergeant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_p_officer
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_tank_captain
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_tank_overall_captain
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_tank_overall_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_tank_overall_sergeant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_tank_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_tank_crew
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_tank_sergeant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_assault_mgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_assault_smgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_SOV_assault_sergeant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_scout_atrifle_assistant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_SOV_scout_atrifle_gunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_NKVD_smgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_NKVD_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_NKVD_first_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_NKVD_LC_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_NKVD_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_NKVD_sergeant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_NKVD_p_officer
+				{
+					cost = 100;
+					requirements[] = {};
+				};
 			};
 			class Vehicles
 			{
 				//---------------------------------------------- RHS:
 			
-				class B_APC_Wheeled_01_cannon_F
+				class LIB_SOV_M3_Halftrack
 				{
-					cost = 10000;
+					cost = 50000;
 					requirements[] = {};
 				};				
-				class B_APC_Tracked_01_rcws_F
+				class LIB_SdKfz251_captured
 				{
-					cost = 10000;
-					requirements[] = {};
-				};				
-				class B_APC_Tracked_01_CRV_F
-				{
-					cost = 10000;
-					requirements[] = {};
-				};							
-				class B_MBT_01_arty_F
-				{
-					cost = 10000;
-					requirements[] = {};
-				};							
-				class B_APC_Tracked_01_AA_F
-				{
-					cost = 10000;
-					requirements[] = {};
-				};				
-				class B_LSV_01_armed_F
-				{
-					cost = 500;
-					requirements[] = {};
-				};			
-				class rhsusf_m109_usarmy
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class rhsusf_M142_usarmy_WD
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class RHS_M2A2_wd
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class RHS_M2A3_BUSKIII_wd
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class RHS_M6_wd
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class rhsusf_stryker_m1126_m2_wd
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class rhsusf_m113_usarmy_MK19
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class rhsusf_M1230_MK19_usarmy_wd
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class rhsusf_m1240a1_m2crows_usarmy_wd
-				{
-					cost = 20000;
-					requirements[] = {};
-				};					
-				class rhsusf_m1a1aimwd_usarmy
-				{
-					cost = 20000;
-					requirements[] = {};
-				};						
-				class rhsusf_m1a2sep1tuskiiwd_usarmy
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class rhsusf_m1a2sep2wd_usarmy
-				{
-					cost = 20000;
-					requirements[] = {};
-				};				
-				class rhsusf_M977A4_AMMO_usarmy_wd
-				{
-					cost = 1000;
-					requirements[] = {};
-				};				
-				class rhsusf_M977A4_REPAIR_usarmy_wd
-				{
-					cost = 1000;
-					requirements[] = {};
-				};				
-				class rhsusf_M978A4_BKIT_usarmy_wd
-				{
-					cost = 1000;
-					requirements[] = {};
-				};				
-				class rhsusf_m1025_w_m2
-				{
-					cost = 1000;
-					requirements[] = {};
-				};				
-				class rhsusf_m1151_m2crows_usarmy_wd
-				{
-					cost = 1000;
-					requirements[] = {};
-				};				
-				class rhsusf_m1151_m2_v2_usarmy_wd
-				{
-					cost = 1000;
+					cost = 50000;
 					requirements[] = {};
 				};
-				class B_MBT_01_TUSK_F
+				class LIB_SdKfz251_captured_FFV
 				{
-					cost = 30000;
+					cost = 50000;
 					requirements[] = {};
-				};		
+				};						
+				class LIB_SOV_M3_Halftrack_DLV
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz251_captured_DLV
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_Willys_MB_Hood
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_Willys_MB_Ambulance
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_US6_Ammo
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_Zis5v_Fuel
+				{
+					cost = 10000;
+					requirements[] = {};
+				};					
+				class LIB_Zis5v
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_Zis6_Parm
+				{
+					cost = 10000;
+					requirements[] = {};
+				};					
+				class LIB_Zis5v_Med
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_GazM1_SOV_camo_sand
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_US6_Tent
+				{
+					cost = 10000;
+					requirements[] = {};
+				};					
+				class LIB_US6_Tent_Cargo
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_US6_Open
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_US6_Open_Cargo
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_Willys_MB
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_Zis5v_61K
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_Zis5v_61K_DLV
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_Scout_M3_DLV
+				{
+					cost = 50000;
+					requirements[] = {};
+				};			
+				class LIB_Scout_M3
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_US6_BM13_DLV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_JS2_43
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_T34_76
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_T34_85
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_M4A2_SOV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_JS2_43_DLV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_SU85_DLV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_T34_76_DLV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};
+				class LIB_T34_85_DLV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_M4A2_SOV_DLV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_SU85
+				{
+					cost = 100000;
+					requirements[] = {};
+				};				
+				class LIB_US6_BM13_SingleFire_DLV
+				{
+					cost = 100000;
+					requirements[] = {};
+				};						
+				class LIB_US6_BM13
+				{
+					cost = 10000;
+					requirements[] = {};
+				};					
 			};
 			class Aircraft
 			{
 				//---------------------------------------------------- RHS:
 				
-				class B_Heli_Light_01_dynamicLoadout_F
+				class LIB_P39
 				{
-					cost = 20000;
+					cost = 200000;
 					requirements[] = {};
 				};				
-				class B_Heli_Transport_03_F
+				class LIB_Li2
 				{
-					cost = 20000;
+					cost = 200000;
 					requirements[] = {};
 				};				
-				class B_Heli_Attack_01_dynamicLoadout_F
+				class LIB_Pe2
 				{
-					cost = 70000;
+					cost = 200000;
 					requirements[] = {};
 				};				
-				class B_Heli_Transport_01_F
+				class LIB_RA_P39_3
 				{
-					cost = 70000;
+					cost = 200000;
 					requirements[] = {};
 				};				
-				class B_Plane_CAS_01_dynamicLoadout_F
+				class LIB_RA_P39_2
 				{
-					cost = 70000;
-					requirements[] = {};
-				};				
-				class B_Plane_Fighter_01_F
-				{
-					cost = 70000;
-					requirements[] = {};
-				};						
-				class RHS_AH64D_wd
-				{
-					cost = 70000;
-					requirements[] = {};
-				};			
-				class RHS_UH60M
-				{
-					cost = 20000;
+					cost = 200000;
 					requirements[] = {};
 				};
 			};
@@ -273,122 +493,40 @@ class CfgWLRequisitionPresets
 			{
 				//----------------------------------------------- RHS:
 			
-				class B_Boat_Armed_01_minigun_F
+				class LIB_BM37
 				{
 					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_SU_SearchLight
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_Maxim_M30_base
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_61k
+				{
+					cost = 1000;
+					requirements[] = { "W" };
+				};				
+				class LIB_Zis3
+				{
+					cost = 1000;
 					requirements[] = { "W" };
 				};
 			};
 			class Gear
 			{
 				//------------------------------------------------ RHS:
-			
-				class rhsusf_weapon_crate					
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhsusf_spec_weapons_crate					
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhsusf_launcher_crate				
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhsusf_gear_crate			
-				{
-					cost = 20;
-					requirements[] = {};
-				};
-				class rhsusf_mags_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_weapon_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_spec_weapons_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_launcher_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_gear_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_mags_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class ACE_medicalSupplyCrate_advanced
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class ACE_medicalSupplyCrate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class Box_NATO_Ammo_F
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class Box_NATO_WpsSpecial_F
-				{
-					cost = 20;
-					requirements[] = {};
-				};
 			};
 			class Defences
 			{
 				//------------------------------------------------ RHS:
-			
-				class B_Mortar_01_F
-				{
-					cost = 250;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 };
-				};				
-				class B_static_AA_F
-				{
-					cost = 250;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 };
-				};				
-				class B_AAA_System_01_F
-				{
-					cost = 250;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 };
-				};				
-				class B_GMG_01_A_F
-				{
-					cost = 250;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 };
-				};				
-				class B_HMG_01_A_F
-				{
-					cost = 250;
-					requirements[] = {};
-					offset[] = { 0, 5.3, 0 };
-				};
-			};
+		
 		};
 		
 		class EAST
@@ -397,77 +535,282 @@ class CfgWLRequisitionPresets
 			{
 				//------------------------------------------------------- RHS: 
 				
-				class rhs_vdv_driver_armored
+				class LIB_GER_stggunner
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_grenadier_rpg
+				class LNRD_Luftwaffe_stggunner
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_engineer
+				class LIB_GER_gun_crew
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_machinegunner
+				class LIB_GER_gun_unterofficer
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_arifleman_rpk
+				class LIB_GER_gun_lieutenant
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_medic
+				class LIB_GER_hauptmann
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_marksman
+				class LIB_GER_scout_ober_grenadier
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_marksman_asval
+				class LIB_GER_ober_grenadier
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_aa
+				class LIB_GER_smgunner
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_rifleman
+				class LNRD_Luftwaffe_smgunner
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_grenadier
+				class LIB_GER_scout_smgunner
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_rifleman_alt
+				class LNRD_Luftwaffe_flaksoldat
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_armoredcrew
+				class LIB_GER_lieutenant
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_at
+				class LIB_GER_scout_lieutenant
 				{
 					cost = 100;
 					requirements[] = {};
 				};				
-				class rhs_vdv_recon_arifleman
+				class LIB_GER_oberst
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_ober_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_pilot
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_LAT_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_LAT_Rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_AT_soldier
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_AT_soldier
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_AT_grenadier
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_AT_grenadier
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_mgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_mgunner2
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_mgunner2
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_mgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_scout_mgunner
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_scout_mgunner2
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_radioman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_radioman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_DAK_spg_crew
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_spg_crew
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_spg_unterofficer
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_DAK_spg_unterofficer
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_DAK_spg_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_spg_lieutenant
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_medic
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_medic
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_sapper_gefr
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_scout_sniper
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LNRD_Luftwaffe_sniper
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_scout_ober_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_unequip
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_scout_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_ober_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_Soldier2
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_rifleman
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_soldier_camo4_base
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_soldier_camo5_base
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_soldier_camo_base
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_soldier_camo2_base
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_tank_crew
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_tank_unterofficer
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_unterofficer
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_GER_scout_unterofficer
 				{
 					cost = 100;
 					requirements[] = {};
@@ -477,164 +820,199 @@ class CfgWLRequisitionPresets
 			{
 				//--------------------------------------------------------------------- RHS:
 			
-				class rhs_bmp1p_vdv								
+				class LIB_SdKfz251							
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz_7					
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz_7_Ammo					
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz_7_AA				
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz251_FFV				
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz251_DLV				
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz_7_AA_KOTH_DLV			
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_SdKfz_7_AA_DLV	
+				{
+					cost = 50000;
+					requirements[] = {};
+				};				
+				class LIB_OpelBlitz_Ammo	
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_OpelBlitz_Fuel	
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_OpelBlitz_Open_Y_Camo
+				{
+					cost = 10000;
+					requirements[] = {};
+				};
+				class LIB_OpelBlitz_Parm
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_OpelBlitz_Parm
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_OpelBlitz_Ambulance
+				{
+					cost = 10000;
+					requirements[] = {};
+				};				
+				class LIB_Kfz1
 				{
 					cost = 5000;
 					requirements[] = {};
-				};
-				class rhs_bmp2k_vdv							
+				};				
+				class LIB_Kfz1_camo
 				{
 					cost = 5000;
 					requirements[] = {};
-				};
-				class rhs_brm1k_vdv						
+				};				
+				class LIB_Kfz1_Hood_camo
 				{
 					cost = 5000;
 					requirements[] = {};
-				};
-				class rhs_btr60_vdv					
+				};				
+				class LIB_Kfz1_Hood_sernyt
 				{
 					cost = 5000;
 					requirements[] = {};
-				};
-				class rhs_btr70_vdv				
+				};				
+				class LIB_Kfz1_Hood
 				{
 					cost = 5000;
 					requirements[] = {};
-				};
-				class rhs_btr80a_vdv				
+				};				
+				class LIB_Kfz1_sernyt
 				{
 					cost = 5000;
 					requirements[] = {};
-				};
-				class rhs_btr80_vdv				
+				};				
+				class LIB_Kfz1_MG42
 				{
-					cost = 5000;
-					requirements[] = {};
-				};
-				class rhsgref_BRDM2_vdv			
-				{
-					cost = 5000;
-					requirements[] = {};
-				};
-				class rhsgref_BRDM2_HQ_vdv			
-				{
-					cost = 5000;
-					requirements[] = {};
-				};
-				class rhs_gaz66_vdv			
-				{
-					cost = 4000;
+					cost = 50000;
 					requirements[] = {};
 				};				
-				class rhs_gaz66_zu23_vdv			
+				class LIB_Kfz1_MG42_camo
 				{
-					cost = 4500;
-					requirements[] = {};
-				};					
-				class O_G_Offroad_01_armed_F		
-				{
-					cost = 500;
-					requirements[] = {};
-				};					
-				class O_G_Offroad_01_AT_F		
-				{
-					cost = 500;
-					requirements[] = {};
-				};					
-				class rhssaf_army_o_m1151_olive_pkm	
-				{
-					cost = 500;
+					cost = 50000;
 					requirements[] = {};
 				};				
-				class rhs_gaz66_ammo_vdv			
+				class LIB_Kfz1_MG42_DLV
 				{
-					cost = 500;
+					cost = 50000;
 					requirements[] = {};
 				};				
-				class rhs_typhoon_vdv			
+				class LIB_Kfz1_MG42_camo_DLV
 				{
-					cost = 500;
+					cost = 50000;
 					requirements[] = {};
 				};				
-				class RHS_Ural_Fuel_VDV_01			
+				class LIB_Kfz1_MG42_sernyt_DLV
 				{
-					cost = 500;
+					cost = 50000;
 					requirements[] = {};
 				};				
-				class RHS_Ural_Repair_VDV_01			
+				class LIB_StuG_III_G
 				{
-					cost = 500;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_tigr_sts_vdv		
+				class LIB_FlakPanzerIV_Wirbelwind
 				{
-					cost = 500;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_sprut_vdv	
+				class LIB_T34_76_captured
 				{
-					cost = 30000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_t72be_tv
+				class LIB_PzKpfwIV_H
 				{
-					cost = 30000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_t80a
+				class LIB_PzKpfwIV_H_tarn51c
 				{
-					cost = 30000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_t80u45m
+				class LIB_PzKpfwIV_H_tarn51d
 				{
-					cost = 30000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_t14_tv
+				class LIB_PzKpfwVI_B
 				{
-					cost = 30000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_t80uk
+				class LIB_PzKpfwVI_B_tarn51d
 				{
-					cost = 30000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_t90sab_tv
+				class LIB_PzKpfwVI_E
 				{
-					cost = 30000;
-					requirements[] = {};
-				};					
-				class rhs_t15_tv
-				{
-					cost = 30000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_zsu234_aa
+				class LIB_PzKpfwVI_E_tarn51c
 				{
-					cost = 15000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_9k79
+				class LIB_PzKpfwVI_E_tarn52c
 				{
-					cost = 20000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_2s3_at_tv
+				class LIB_PzKpfwVI_E_tarn52d
 				{
-					cost = 20000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_2s1_at_tv
+				class LIB_PzKpfwVI_E_1
 				{
-					cost = 20000;
+					cost = 100000;
 					requirements[] = {};
 				};				
-				class rhs_2s3_tv
+				class LIB_SdKfz124
 				{
-					cost = 20000;
+					cost = 100000;
 					requirements[] = {};
 				};
 			};
@@ -642,79 +1020,49 @@ class CfgWLRequisitionPresets
 			{
 				//------------------------------------------------------------- RHS:
 				
-				class RHS_Mi8AMT_vdv						
+				class LIB_FW190F8						
 				{
-					cost = 20000;
-					requirements[] = { "A" };
-				};							
-				class O_Heli_Transport_04_covered_F					
-				{
-					cost = 20000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class RHS_Mi8MTV3_vdv						
+				class LIB_FW190F8_Italy					
 				{
-					cost = 20000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class RHS_Mi8mtv3_Cargo_vdv						
+				class LIB_FW190F8_4					
 				{
-					cost = 20000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class RHS_Mi8T_vdv					
+				class LIB_FW190F8_2					
 				{
-					cost = 20000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class RHS_Mi24P_vdv				
+				class LIB_FW190F8_5				
 				{
-					cost = 70000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class rhs_mig29sm_vvs			
+				class LIB_FW190F8_3		
 				{
-					cost = 70000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class RHS_Su25SM_vvs			
+				class LIB_Ju87_Italy
 				{
-					cost = 70000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class RHS_T50_vvs_blueonblue		
+				class LIB_Ju87_Italy2
 				{
-					cost = 70000;
-					requirements[] = { "A" };
-				};
-				class RHS_Mi8MTV3_heavy_vdv				
-				{
-					cost = 50000;
-					requirements[] = { "A" };
-				};					
-				class O_Heli_Light_02_dynamicLoadout_F			
-				{
-					cost = 50000;
-					requirements[] = { "A" };
-				};						
-				class RHS_Ka52_vvs			
-				{
-					cost = 50000;
-					requirements[] = { "A" };
-				};					
-				class rhs_ka60_grey
-				{
-					cost = 50000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};				
-				class rhs_mig29sm_vmf			
+				class LIB_Ju87
 				{
-					cost = 50000;
-					requirements[] = { "A" };
-				};				
-				class rhs_mig29s_vmf		
-				{
-					cost = 50000;
+					cost = 200000;
 					requirements[] = { "A" };
 				};
 			};
@@ -722,161 +1070,106 @@ class CfgWLRequisitionPresets
 			{
 				// ------------------------------------------------------------- RHS:
 			
-				class rhs_bmk_t
+				class LIB_GER_SearchLight
 				{
-					cost = 500;
+					cost = 2000;
 					requirements[] = { "W" };
 				};				
-				class O_T_Boat_Armed_01_hmg_F
+				class LIB_leFH18
 				{
-					cost = 500;
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_leFH18_AT
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_FlaK_30
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_FlaK_36
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_FlaK_36_ARTY
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_FlaK_36_AA
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_FlaK_38
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_Flakvierling_38
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_GrWr34
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_GrWr34_g
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_MG34_Lafette_Deployed
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_MG34_Lafette_low_Deployed
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_MG42_Lafette_Deployed
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_MG42_Lafette_low_Deployed
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_Nebelwerfer41
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_Nebelwerfer41_Camo
+				{
+					cost = 2000;
+					requirements[] = { "W" };
+				};				
+				class LIB_Pak40
+				{
+					cost = 2000;
 					requirements[] = { "W" };
 				};
 			};
 			class Gear
 			{
 				//-------------------------------------------------------------- RHS:
-			
-				class rhsusf_weapon_crate					
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhsusf_spec_weapons_crate					
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhsusf_launcher_crate				
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhsusf_gear_crate			
-				{
-					cost = 20;
-					requirements[] = {};
-				};
-				class rhsusf_mags_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_weapon_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_spec_weapons_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_launcher_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_gear_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class rhs_mags_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class ACE_medicalSupplyCrate_advanced
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class ACE_medicalSupplyCrate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class Box_NATO_Ammo_F
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class Box_NATO_WpsSpecial_F
-				{
-					cost = 20;
-					requirements[] = {};
-				};
+		
 			};
 			class Defences
 			{
 				//----------------------------------------------------------- RHS:
 			
-				class rhs_D30_vdv
-				{
-					cost = 250;
-					requirements[] = {};
-				};
-				class rhs_D30_at_vdv
-				{
-					cost = 250;
-					requirements[] = {};
-				};
-				class rhs_2b14_82mm_vdv
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class rhs_KORD_VDV
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class rhs_KORD_high_VDV
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class rhs_Igla_AA_pod_vdv
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class rhs_Metis_9k115_2_vdv
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class rhs_SPG9M_VDV
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class rhs_Kornet_9M133_2_vdv
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class RHS_AGS30_TriPod_VDV
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class RHS_NSV_TriPod_VDV
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class RHS_ZU23_VDV
-				{
-					cost = 250;
-					requirements[] = {};
-				};				
-				class B_AAA_System_01_F
-				{
-					cost = 250;
-					requirements[] = {};
-				};
 			};
 		};
 	};
