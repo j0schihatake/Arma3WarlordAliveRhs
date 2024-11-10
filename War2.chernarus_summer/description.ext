@@ -637,7 +637,26 @@ class CfgWLRequisitionPresets
 					cost = 2000;
 					requirements[] = { "W" };
 				};
-		
+				class LIB_BasicWeaponsBox_GER
+				{
+					cost = 100;
+					requirements[] = {};
+				};
+				class LIB_WeaponsBox_Big_GER
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_BasicAmmunitionBox_GER
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class 
+				{
+					cost = 100;
+					requirements[] = {};
+				};
 			};
 			class Defences
 			{
@@ -653,7 +672,7 @@ class CfgWLRequisitionPresets
 		
 		class EAST
 		{
-						class Infantry
+			class Infantry
 			{
 				//------------------------------------------ RHS:
 			
@@ -1175,6 +1194,26 @@ class CfgWLRequisitionPresets
 				{
 					cost = 1000;
 					requirements[] = { "W" };
+				};
+				class LIB_BasicWeaponsBox_SU
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_WeaponsBox_Big_SU
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_Lone_Big_Box
+				{
+					cost = 100;
+					requirements[] = {};
+				};				
+				class LIB_BasicAmmunitionBox_SU
+				{
+					cost = 100;
+					requirements[] = {};
 				};
 			};
 			class Defences
