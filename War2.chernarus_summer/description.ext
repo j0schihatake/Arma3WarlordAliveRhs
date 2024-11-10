@@ -1104,7 +1104,7 @@ class CfgWLRequisitionPresets
 				};						
 				class LIB_US6_BM13
 				{
-					cost = 10000;
+					cost = 100000;
 					requirements[] = {};
 				};					
 			};
