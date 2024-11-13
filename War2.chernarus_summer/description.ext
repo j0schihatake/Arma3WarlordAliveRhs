@@ -1178,3 +1178,91 @@ class CfgWLRequisitionPresets
 		};
 	};
 };
+
+class CfgWLFactionAssets
+{
+	class WEST
+	{
+		class InfantryUnits
+		{
+			class LNRD_Luftwaffe_stggunner {};
+			class LIB_GER_scout_ober_grenadier {};
+			class LIB_GER_gun_lieutenant {};
+			class LNRD_Luftwaffe_smgunner {};
+			class LNRD_Luftwaffe_flaksoldat {};
+			class LIB_GER_LAT_Rifleman {};
+			class LNRD_Luftwaffe_AT_soldier {};
+			class LNRD_Luftwaffe_mgunner2 {};
+			class LNRD_Luftwaffe_radioman {};
+			class LNRD_Luftwaffe_medic {};
+			class LIB_GER_soldier_camo4_base {};
+			class LIB_GER_scout_sniper {};
+			class LIB_GER_scout_unterofficer {};
+			class LIB_GER_Soldier2 {};
+		};
+	};
+	class EAST
+	{
+		class InfantryUnits
+		{
+			class LIB_SOV_smgunner {};
+            class LIB_SOV_grenadier {};
+			class LIB_SOV_medic {};
+			class LIB_SOV_scout_sniper {};
+			class LIB_SOV_scout_mgunner {};
+			class LIB_SOV_assault_mgunner {};
+			class LIB_SOV_assault_smgunner {};
+			class LIB_SOV_sapper {};
+			class LIB_SOV_assault_sergeant {};
+			class LIB_SOV_scout_atrifle_gunner {};
+			class LIB_SOV_scout_atrifle_assistant {};
+			class LIB_SOV_LC_rifleman_summer {};
+			class LIB_SOV_operator {};
+		};
+	};
+	class INDEP
+	{
+		class InfantryGroups
+		{
+			groups[] = {
+                "'Indep' >> 'LIB_UK_DR' >> 'Infantry' >> 'LIB_UK_DR_infantry_squad'",
+                "'Indep' >> 'LIB_UK_DR' >> 'Infantry' >> 'LIB_UK_DR_AT_squad'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_AT_Squad'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Command_Section'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Command_Squad'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Infantry_Squad'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Machine_Gun_Team'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Scout_Squad'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Sentry_Squad_2'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Sentry_Squad_3'",
+                "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Sniper_Team'"
+			};
+		};
+		class MotorizedGroups
+		{
+			groups[] = {
+				"'Indep' >> 'LIB_UK_DR' >> 'Mechanized' >> 'LIB_Mechanized_Infantry_Squad'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Motorized' >> 'LIB_Motorized_Infantry_Squad'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Motorized' >> 'LIB_Scout_Motorized_Infantry_Squad'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Motorized' >> 'LIB_US_jeep_scout'"
+			};
+		};
+		class MechanizedGroups
+		{
+			groups[] = {
+				"'Indep' >> 'LIB_UK_DR' >> 'Motorized' >> 'LIB_Motorized_Infantry_Squad'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Mechanized' >> 'LIB_M3A3_Platoon'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Mechanized' >> 'LIB_Mechanized_Infantry_Squad'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Mechanized' >> 'LIB_US_Greyhound_patrol'"
+			};
+		};
+		class ArmoredGroups
+		{
+			groups[] = {
+				"'Indep' >> 'LIB_UK_DR' >> 'Armored' >> 'LIB_Crusader_Mk1AA_desert_Platoon'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Armored' >> 'LIB_M4A3_75_Platoon'",
+				"'Indep' >> 'LIB_US_ARMY' >> 'Armored' >> 'LIB_M4A3_76_Platoon'"
+			};
+		};
+	};
+};
