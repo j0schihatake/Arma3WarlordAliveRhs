@@ -322,23 +322,13 @@ class CfgWLRequisitionPresets
 				{
 					cost = 20;
 					requirements[] = {};
-				};				
+				};
 				class rhs_gear_crate
 				{
 					cost = 20;
 					requirements[] = {};
 				};				
 				class rhs_mags_crate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class ACE_medicalSupplyCrate_advanced
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class ACE_medicalSupplyCrate
 				{
 					cost = 20;
 					requirements[] = {};
@@ -787,16 +777,6 @@ class CfgWLRequisitionPresets
 					cost = 20;
 					requirements[] = {};
 				};				
-				class ACE_medicalSupplyCrate_advanced
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
-				class ACE_medicalSupplyCrate
-				{
-					cost = 20;
-					requirements[] = {};
-				};				
 				class Box_NATO_Ammo_F
 				{
 					cost = 20;
@@ -877,6 +857,127 @@ class CfgWLRequisitionPresets
 					cost = 250;
 					requirements[] = {};
 				};
+			};
+		};
+	};
+};
+class CfgWLFactionAssets
+{
+	class WEST
+	{
+		class InfantryUnits
+		{
+			class B_Soldier_GL_F {};
+			class B_engineer_F {};
+			class B_Soldier_TL_F {};
+			class B_medic_F {};
+			class B_Sharpshooter_F {};
+			class B_soldier_repair_F {};
+			class B_officer_F {};
+			class B_soldier_PG_F {};
+			class B_soldier_M_F {};
+			class B_soldier_AA_F {};
+			class B_soldier_AT_F {};
+			class B_soldier_exp_F {};
+			class B_Soldier_F {};
+			class B_soldier_LAT_F {};
+			class B_soldier_LAT2_F {};
+			class B_HeavyGunner_F {};
+			class B_recon_JTAC_F {};
+			class B_recon_medic_F {};
+			class B_recon_M_F {};
+			class B_sniper_F {};
+		};
+	};
+	class EAST
+	{
+		class InfantryUnits
+		{
+			class rhs_vdv_grenadier_rpg {};
+            class rhs_vdv_efreitor {};
+			class rhs_vdv_engineer {};
+			class rhs_vdv_machinegunner {};
+			class rhs_vdv_arifleman_rpk {};
+			class rhs_vdv_arifleman {};
+			class rhs_vdv_medic {};
+			class rhs_vdv_sergeant {};
+			class rhs_vdv_marksman {};
+			class rhs_vdv_marksman_asval {};
+			class rhs_vdv_aa {};
+			class rhs_vdv_rifleman {};
+			class rhs_vdv_grenadier {};
+			class rhs_vdv_rifleman_asval{};
+			class rhs_vdv_grenadier_alt{};
+			class rhs_vdv_RShG2{};
+			class rhs_vdv_at{};
+			class rhs_vdv_mflora_grenadier_rpg{};
+			class rhs_vdv_recon_arifleman{};
+			class rhs_vdv_recon_marksman{};
+			class rhs_vdv_recon_rifleman_l{};
+			class rhs_vdv_recon_grenadier{};
+			class rhs_vmf_recon_marksman_vss{};
+		};
+	};
+	class INDEP
+	{
+		class InfantryGroups
+		{
+			groups[] = {
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_NAC_AT_squad'",
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_NAC_command_section'",
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_NAC_command_squad'",
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_NAC_infantry_squad'",
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_NAC_machine_gun_team'",
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_NAC_sentry_2'",
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_NAC_sentry_3'",
+                "'Indep' >> 'LIB_NAC' >> 'Infantry' >> 'LIB_US_scout_squad'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'HAF_InfSentry'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'HAF_InfSquad'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'HAF_InfSquad_Weapons'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'HAF_InfTeam'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'HAF_InfTeam_AA'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'HAF_InfTeam_AT'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'HAF_SniperTeam'",
+                "'Indep' >> 'IND_F' >> 'Infantry' >> 'I_InfTeam_Light'"
+			};
+		};
+		class MotorizedGroups
+		{
+			groups[] = {
+				"'Indep' >> 'LIB_NAC' >> 'Motorized' >> 'LIB_US_NAC_motorized_infantry_squad'",
+				"'Indep' >> 'LIB_NAC' >> 'Motorized' >> 'LIB_US_NAC_scout_motorized_infantry_squad'",
+				"'Indep' >> 'IND_F' >> 'Motorized' >> 'HAF_MotInf_AA'",
+				"'Indep' >> 'IND_F' >> 'Motorized' >> 'HAF_MotInf_AT'",
+				"'Indep' >> 'IND_F' >> 'Motorized' >> 'HAF_MotInf_GMGTeam'",
+				"'Indep' >> 'IND_F' >> 'Motorized' >> 'HAF_MotInf_MGTeam'",
+				"'Indep' >> 'IND_F' >> 'Motorized' >> 'HAF_MotInf_MortTeam'",
+				"'Indep' >> 'IND_F' >> 'Motorized' >> 'HAF_MotInf_Reinforce'",
+				"'Indep' >> 'IND_F' >> 'Motorized' >> 'HAF_MotInf_Team'"
+			};
+		};
+		class MechanizedGroups
+		{
+			groups[] = {
+				"'Indep' >> 'LIB_NAC' >> 'Mechanized' >> 'LIB_Mechanized_Infantry_Squad'",
+				"'Indep' >> 'IND_F' >> 'Mechanized' >> 'HAF_MechInf_AA'",
+				"'Indep' >> 'IND_F' >> 'Mechanized' >> 'HAF_MechInf_AT'",
+				"'Indep' >> 'IND_F' >> 'Mechanized' >> 'HAF_MechInf_Support'",
+				"'Indep' >> 'IND_F' >> 'Mechanized' >> 'HAF_MechInfSquad'"
+			};
+		};
+		class ArmoredGroups
+		{
+			groups[] = {
+				"'Indep' >> 'LIB_NAC' >> 'Armored' >> 'LIB_US_NAC_M4A3_75_Platoon'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'HAF_TankPlatoon'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'HAF_TankPlatoon_AA'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'HAF_TankSection'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'I_LTankPlatoon_AA'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'I_LTankPlatoon_combined'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'I_LTankSection_AA'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'I_LTankSection_Assault'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'I_LTankSection_AT'",
+				"'Indep' >> 'IND_F' >> 'Armored' >> 'I_LTankSection_Recon'"
 			};
 		};
 	};
