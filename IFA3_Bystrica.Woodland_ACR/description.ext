@@ -1225,8 +1225,6 @@ class CfgWLFactionAssets
 		class InfantryGroups
 		{
 			groups[] = {
-                "'Indep' >> 'LIB_UK_DR' >> 'Infantry' >> 'LIB_UK_DR_infantry_squad'",
-                "'Indep' >> 'LIB_UK_DR' >> 'Infantry' >> 'LIB_UK_DR_AT_squad'",
                 "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_AT_Squad'",
                 "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Command_Section'",
                 "'Indep' >> 'LIB_US_ARMY' >> 'Infantry' >> 'LIB_US_Command_Squad'",
@@ -1241,7 +1239,6 @@ class CfgWLFactionAssets
 		class MotorizedGroups
 		{
 			groups[] = {
-				"'Indep' >> 'LIB_UK_DR' >> 'Mechanized' >> 'LIB_Mechanized_Infantry_Squad'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Motorized' >> 'LIB_Motorized_Infantry_Squad'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Motorized' >> 'LIB_Scout_Motorized_Infantry_Squad'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Motorized' >> 'LIB_US_jeep_scout'"
@@ -1250,7 +1247,6 @@ class CfgWLFactionAssets
 		class MechanizedGroups
 		{
 			groups[] = {
-				"'Indep' >> 'LIB_UK_DR' >> 'Motorized' >> 'LIB_Motorized_Infantry_Squad'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Mechanized' >> 'LIB_M3A3_Platoon'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Mechanized' >> 'LIB_Mechanized_Infantry_Squad'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Mechanized' >> 'LIB_US_Greyhound_patrol'"
@@ -1259,7 +1255,6 @@ class CfgWLFactionAssets
 		class ArmoredGroups
 		{
 			groups[] = {
-				"'Indep' >> 'LIB_UK_DR' >> 'Armored' >> 'LIB_Crusader_Mk1AA_desert_Platoon'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Armored' >> 'LIB_M4A3_75_Platoon'",
 				"'Indep' >> 'LIB_US_ARMY' >> 'Armored' >> 'LIB_M4A3_76_Platoon'"
 			};
