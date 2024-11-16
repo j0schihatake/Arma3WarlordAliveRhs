@@ -1,3 +1,9 @@
+//----------------Description--------------------
+
+author="J0schi";
+displayName = "IFA3_Bystrica";
+briefingName = "IFA3_Bystrica";
+
 class CfgWLRequisitionPresets
 {
 	class j0schiList
