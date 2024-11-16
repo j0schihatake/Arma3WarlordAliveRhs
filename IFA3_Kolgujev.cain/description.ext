@@ -1,3 +1,9 @@
+//----------------Description--------------------
+
+author="J0schi";
+displayName = "IFA3_Kolgujev";
+briefingName = "IFA3_Kolgujev";
+
 class CfgWLRequisitionPresets
 {
 	class j0schiList
