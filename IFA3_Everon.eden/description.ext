@@ -1,3 +1,9 @@
+//----------------Description--------------------
+
+author="J0schi";
+displayName = "IFA3_Everon";
+briefingName = "IFA3_Everon";
+
 class CfgWLRequisitionPresets
 {
 	class j0schiList
