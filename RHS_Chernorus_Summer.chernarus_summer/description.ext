@@ -1,3 +1,9 @@
+//----------------Description--------------------
+
+author="J0schi";
+displayName = "RHS_Chernarus_Summer";
+briefingName = "RHS_Chernarus_Summer";
+
 class CfgWLRequisitionPresets
 {
 	class j0schiList
