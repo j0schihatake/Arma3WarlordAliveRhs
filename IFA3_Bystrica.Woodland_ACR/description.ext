@@ -10,10 +10,9 @@ class CfgWLRequisitionPresets
 	{
 		class WEST
 		{
+			// ------------------------------------------ BLUFOR Пехота:
 			class Infantry
 			{
-				//------------------------------------------------------- RHS: 
-				
 				class LIB_GER_stggunner
 				{
 					cost = 100;
@@ -295,10 +294,9 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 				};
 			};
+			// ------------------------------------------ BLUFOR Техника:
 			class Vehicles
 			{
-				//--------------------------------------------------------------------- RHS:
-				
 				// Машины:
 			
 				class LIB_SdKfz251						
@@ -474,10 +472,9 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 				};
 			};
+			// ------------------------------------------ BLUFOR Аэрофлот:
 			class Aircraft
 			{
-				//------------------------------------------------------------- RHS:
-				
 				class LIB_FW190F8						
 				{
 					cost = 200000;
@@ -524,109 +521,18 @@ class CfgWLRequisitionPresets
 					requirements[] = { "A" };
 				};
 			};
+			// ------------------------------------------ BLUFOR Флот:
 			class Naval
 			{
-				// ------------------------------------------------------------- RHS:
-			
-				class LIB_GER_SearchLight
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_leFH18
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_leFH18_AT
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_FlaK_30
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_FlaK_36
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_FlaK_36_ARTY
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_FlaK_36_AA
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_FlaK_38
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_Flakvierling_38
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_GrWr34
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_GrWr34_g
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_MG34_Lafette_Deployed
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_MG34_Lafette_low_Deployed
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_MG42_Lafette_Deployed
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_MG42_Lafette_low_Deployed
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_Nebelwerfer41
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_Nebelwerfer41_Camo
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_Pak40
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};
-			};
-			class Gear
-			{
-				//-------------------------------------------------------------- RHS:
-				class LIB_Pak40
+				class B_G_Boat_Transport_01_F
 				{
 					cost = 200000;
 					requirements[] = { "W" };
 				};
+			};
+			// ------------------------------------------ BLUFOR Снаряжение:
+			class Gear
+			{
 				class LIB_BasicWeaponsBox_GER
 				{
 					cost = 100;
@@ -641,20 +547,100 @@ class CfgWLRequisitionPresets
 				{
 					cost = 100;
 					requirements[] = {};
-				};				
-				class 
-				{
-					cost = 100;
-					requirements[] = {};
 				};
 			};
+			// ------------------------------------------ BLUFOR Оборона:
 			class Defences
 			{
-				//----------------------------------------------------------- RHS:
+				class LIB_GER_SearchLight
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_leFH18
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_leFH18_AT
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_FlaK_30
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_FlaK_36
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_FlaK_36_ARTY
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_FlaK_36_AA
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_FlaK_38
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_Flakvierling_38
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_GrWr34
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_GrWr34_g
+				{
+					cost = 2000;
+					requirements[] = {};
+				};			
+				class LIB_MG34_Lafette_Deployed
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_MG34_Lafette_low_Deployed
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_MG42_Lafette_Deployed
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_MG42_Lafette_low_Deployed
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_Nebelwerfer41
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_Nebelwerfer41_Camo
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
 				class LIB_Pak40
 				{
-					cost = 200000;
-					requirements[] = { "W" };
+					cost = 2000;
+					requirements[] = {};
 				};
 			};
 		
@@ -662,10 +648,9 @@ class CfgWLRequisitionPresets
 		
 		class EAST
 		{
+			// ------------------------------------------ OPFOR Пехота:
 			class Infantry
 			{
-				//------------------------------------------ RHS:
-			
 				class LIB_SOV_smgunner
 				{
 					cost = 100;
@@ -937,10 +922,9 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 				};
 			};
+			// ------------------------------------------ OPFOR Техника:
 			class Vehicles
 			{
-				//---------------------------------------------- RHS:
-			
 				class LIB_SOV_M3_Halftrack
 				{
 					cost = 50000;
@@ -1083,74 +1067,47 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 				};					
 			};
+			// ------------------------------------------ OPFOR Аерофлот:
 			class Aircraft
 			{
-				//---------------------------------------------------- RHS:
-				
 				class LIB_P39
 				{
 					cost = 200000;
-					requirements[] = {};
+					requirements[] = { "A" };
 				};				
 				class LIB_Li2
 				{
 					cost = 200000;
-					requirements[] = {};
+					requirements[] = { "A" };
 				};				
 				class LIB_Pe2
 				{
 					cost = 200000;
-					requirements[] = {};
+					requirements[] = { "A" };
 				};				
 				class LIB_RA_P39_3
 				{
 					cost = 200000;
-					requirements[] = {};
+					requirements[] = { "A" };
 				};				
 				class LIB_RA_P39_2
 				{
 					cost = 200000;
-					requirements[] = {};
+					requirements[] = { "A" };
 				};
 			};
+			// ------------------------------------------ OPFOR Флот:
 			class Naval
 			{
-				//----------------------------------------------- RHS:
-			
-				class LIB_BM37
+				class CUP_O_PBX_RU
 				{
 					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_SU_SearchLight
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_Maxim_M30_base
-				{
-					cost = 2000;
-					requirements[] = { "W" };
-				};				
-				class LIB_61k
-				{
-					cost = 1000;
-					requirements[] = { "W" };
-				};				
-				class LIB_Zis3
-				{
-					cost = 1000;
 					requirements[] = { "W" };
 				};
 			};
+			// ------------------------------------------ OPFOR Снаряжение:
 			class Gear
 			{
-				//------------------------------------------------ RHS:
-				class LIB_Zis3
-				{
-					cost = 1000;
-					requirements[] = { "W" };
-				};
 				class LIB_BasicWeaponsBox_SU
 				{
 					cost = 100;
@@ -1172,13 +1129,33 @@ class CfgWLRequisitionPresets
 					requirements[] = {};
 				};
 			};
+			// ------------------------------------------ OPFOR Оборона:
 			class Defences
 			{
-				//------------------------------------------------ RHS:
-								class LIB_Zis3
+				class LIB_BM37
 				{
-					cost = 1000;
-					requirements[] = { "W" };
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_SU_SearchLight
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_Maxim_M30_base
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_61k
+				{
+					cost = 2000;
+					requirements[] = {};
+				};				
+				class LIB_Zis3
+				{
+					cost = 2000;
+					requirements[] = {};
 				};
 			};
 		};
